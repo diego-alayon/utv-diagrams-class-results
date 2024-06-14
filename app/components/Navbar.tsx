@@ -18,9 +18,9 @@ type NavLink = {
 const navLinks: NavLink[] = [
   { icon: HomeIcon, path: '/' },
   { icon: SearchIcon, path: '/search' },
-  { icon: FolderopenIcon, path: '/file-explorer' },
+  { icon: FolderopenIcon, path: '#!' },
   { icon: CodemapIcon, path: '/codemap' },
-  { icon: DiagramsIcon, path: '/diagrams' },
+  { icon: DiagramsIcon, path: '/visual-explorer' },
   { icon: RepositoriesIcon, path: '/repositories' },
   { icon: AdminIcon, path: '/admin' },
 ];
@@ -28,7 +28,7 @@ const navLinks: NavLink[] = [
 const NavBar: React.FC = () => {
   return (
     <>
-        <div className="bg-gray-800 h-screen border-r border-gray-700">
+    <div className="bg-gray-800 h-screen border-r border-gray-700">
       <div className='px-5 py-4 flex align-center border-b border-gray-600'>
         <AugoorbrandIcon />
       </div>

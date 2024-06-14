@@ -16,8 +16,8 @@ export default function RootLayout({
       <body className="flex flex-row h-screen bg-gray-900">
         <div><NavBar /></div>
         <div>
-          <div><Header /></div>
-          <div>{children}</div>
+          <header><Header /></header>
+          <main>{children}</main>
         </div>
       </body>
     </html>
